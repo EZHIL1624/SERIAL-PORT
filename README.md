@@ -31,7 +31,7 @@ WAIT:JNB TI,WAIT
 #include<reg51.h>
  void main(void)
  {
-unsigned char msg[]="MANOJI";
+unsigned char msg[]="EZHIL";
 unsigned char i;
 TMOD=0X20;
 TIMER 1,MODE 2 TH1=0XFC;
